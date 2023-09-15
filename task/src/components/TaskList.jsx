@@ -29,7 +29,7 @@ export default function TaskList() {
   }, [task]);
 
   useEffect(() => {
-    localStorage.setItem("tasksList", JSON.stringify(tasksList))
+    localStorage.setItem("tasksList", JSON.stringify(tasksList));
   }, [tasksList]);
 
   const handleChange = (e) => {
