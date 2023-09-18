@@ -110,5 +110,5 @@ export default function TaskList() {
         </ul>
       </div>
     </div>
-  );
+  )
 }
