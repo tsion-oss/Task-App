@@ -106,7 +106,7 @@ export default function TaskList() {
               <button onClick={() => handleDelete(task.title)}>delete</button>
             </div>
            
-          ))}
+          ))};
         </ul>
       </div>
     </div>
